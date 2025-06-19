@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main{
+    @apply w-[95%] mx-auto transition-all duration-300
+  }
+  .heading {
+    @apply !text-heading-light dark:!text-heading-dark transition-all duration-300;
+  }
+  .paragraph {
+    @apply !text-paragraph-light dark:!text-paragraph-dark transition-all duration-300;
+  }
+  .background {
+    @apply !bg-background-light dark:!bg-background-dark transition-all duration-300;
+  }
+  .foreground {
+    @apply !bg-foreground-light dark:!bg-foreground-dark transition-all duration-300;
+  }
+}
